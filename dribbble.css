@@ -1,0 +1,294 @@
+body {
+  height: 2000px;
+}
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  flex: 1;
+  background-color: white;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+}
+.site-logo {
+  width: 90px;
+  height: 90px;
+  margin-left: 40px;
+  margin-top: 0;
+  cursor: pointer;
+  display: flex;
+}
+.site-logo:hover, .explore:hover, .hire:hover, .jobs:hover, .blog:hover  {
+  opacity: 0.6;
+}
+.explore {
+  color: black;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100px;
+  display: flex;
+  margin-left: 65px;
+  margin-top: 0;
+  color: black;
+  align-items: center;
+  cursor: pointer;
+}
+.hire, .jobs, .blog {
+  width: 135px;
+  color: #060318;
+  font-family: Roboto,Arial;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+.jobs {
+  width: 100px;
+}
+.blog {
+  margin-right: 400px;
+}
+.right-section {
+  display: flex;
+  flex-direction: row;
+}
+.sign-up-button {
+  margin:0;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+  flex-direction: row;
+  padding: 14px;
+  cursor: pointer;
+}
+.log-in-button{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.sign-up-button:hover {
+  opacity: 0.6;
+}
+.log-in-button:hover{
+  background-color: rgb(59, 53, 53);
+  color: white;
+}
+.log-in-button:active{
+  opacity: 0.7;
+}
+.content {
+  font-size: 64px;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  margin-top: 50px;
+  width: 600px;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 400px;
+  padding-right: 250px;
+  margin-bottom: 0;
+}
+.description {
+  font-family: Roboto,Arial;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(57, 56, 56);
+  padding-left: 400px;
+  padding-right: 250px;
+  width: 550px;
+  text-align: center;
+  margin-top: 22px;
+}
+.search-bar {
+  display: block;
+  color: black;
+  background-color: rgb(243, 242, 242);
+  border: none;
+  margin-top: 50px;
+  font-family: Roboto,Arial;
+  font-size: 15px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 40px;
+  margin: auto; 
+  padding-top: 20px;
+  padding-bottom: 8px;
+  height: 20px;
+  width: 650px;
+  padding-left: 20px;
+}
+.search-bar:hover {
+  background-color: rgb(255, 253, 253);
+  transition: 0.5s;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.trending {
+  margin-top: 10px;
+  font-family: Roboto,Arial;
+  padding-top: 20px;
+  margin-left: 300px;
+  color: rgb(164, 164, 164);
+}
+.page,.e-commerce,.mobile-app, .logo-design,.dashboard, .icons {
+  font-size: 14px;
+  display: flex;
+  font-family: Roboto,Arial;
+  background-color: rgb(237, 234, 234);
+  border-radius: 15px;
+  border-color: gray;
+  margin-left: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+.page:hover,.e-commerce:hover,.mobile-app:hover, .logo-design:hover,.dashboard:hover, .icons:hover {
+  opacity: 0.6;
+}
+.bottom-content {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  flex: 1;
+  background-color: white;
+}
+.popular-box {
+  font-family: Roboto,Arial;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-color: rgb(213, 216, 219);;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  height: 45px;
+  width: 104px;
+  border-radius: 2px;
+  margin-top: 50px;
+  margin-left: 70px;
+  font: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+  color 1s;
+}
+.list {
+  background-color: rgb(236, 232, 232);
+  padding: 7px;
+}
+.list,.animation,.branding,.illustration,.mobile-tab,
+.print,.product-design,.typography {
+  font-family: Roboto,Arial;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  border-radius: 14px;
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 250px;
+  top: 0;
+  cursor: pointer;
+  margin-bottom: 35px;
+}
+.animation,.branding,.illustration,.mobile-tab,.print,
+.product-design,.typography {
+  margin-left: 50px;
+}
+.list:hover,.animation:hover,.branding:hover,.illustration:hover,
+.mobile-tab:hover,.print:hover,.product-design:hover,.typography:hover {
+  opacity: 0.6;
+}
+.thumbnail {
+  margin-left: 65px;
+  height: 220px;
+  width: 270px;
+  border-radius: 6px;
+  object-fit: cover;
+  display: grid;
+  grid-template-columns:50px 1fr;
+  flex-direction: row;
+}
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  flex-direction: row;
+}
+.thumbnail-pic {
+  display: grid;
+  flex-direction: column;
+}
+.profile-picture {
+  height: 32px;
+  width: 2px;
+  object-fit: cover;
+  margin-left: 60px;
+  width: 36px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+}
+.info {
+  font-family: Roboto,Arial;
+  font-weight: 500;
+  cursor: pointer;
+  display: grid;
+  position: relative;
+}
+.emote {
+  font-size: 16px;
+  margin-left: 55px;
+  margin-top: 12px;
+}
+.team {
+  width: 100%;
+  font-size: 13px;
+  color: white;
+  background-color: lightgray;
+  margin-left: 4px;
+  font-weight: 700;
+  padding: 2px;
+  border-radius: 5px;
+  position: relative;
+  flex-direction: column;
+}

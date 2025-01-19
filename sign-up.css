@@ -1,0 +1,159 @@
+#main-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.sidebar {
+  position: fixed;
+  width: 400px;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+.site-logo {
+  height: 26px;
+  margin-left: 0;
+  color: white;
+  position: absolute;
+  width: 170px;
+  top: 42px;
+  bottom: 0;
+  display: block;
+  cursor: pointer;
+}
+.sidebar-video {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  margin: 0;
+}
+.link {
+  font-family: Arial;
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+}
+.heading {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 550px;
+  margin-top: 70px;
+}
+.logo {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: sans-serif;
+  margin-left: 550px;
+  margin-top: 40px;
+  width: 400px;
+}
+.divider {
+  height: 1px;
+  margin: 30px 450px;
+  padding: 0;
+  overflow: visible;
+  border: none;
+  background-color: #e7e7e9;
+  color: #6e6d7a;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.divider::after {
+  font-family: sans-serif,Arial;
+  content: 'or sign in with email';
+  position: relative;
+  top: -7px;
+  padding: 0 16px;
+  background: #fff;
+  align-items: center;
+  padding-left: 12px;
+}
+.username {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 550px;
+  margin-top: 40px;
+  padding: 0;
+  border: 0;
+  display: block;
+  margin-bottom: 8px;
+}
+.input-group {
+  margin-bottom: 16px;
+}
+.form {
+  display: flex;
+  margin-left: 550px;
+  width: 360px;
+  padding: 12px 20px;
+  height: 27px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #1a202c;
+  background-color: #ffffff;
+  transition: border-color 0.2s ease;
+}
+.form:focus {
+  outline: none;
+  border-color: #949194;
+  box-shadow: 0 0 0 0.5px lightpink;
+}
+.form::placeholder {
+  color: #a0aec0;
+}
+.forgot {
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 267px;
+  text-decoration: underline;
+  cursor: pointer;;
+}
+.sign-up-button {
+  font-family: sans-serif;
+  margin-left: 550px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(28, 28, 28);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 20px;
+  border-radius: 30px;
+  width: 400px;
+  cursor: pointer;
+  border: none;
+}
+.sign-up-button:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.bottom-text {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-left: 650px;
+  color: rgb(118, 117, 117);
+}

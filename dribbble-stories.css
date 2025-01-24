@@ -1,0 +1,278 @@
+.header {
+  height: 75px;
+  display: flex;
+  flex-direction:row;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.left-section {
+  width: 650px;
+}
+.site-logo {
+  width: 89px;
+  height: 24px;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+}
+.site-logo:hover {
+  opacity: 0.7;
+  transition: 0.2s;
+}
+.search-bar {
+  margin-left: 30px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 18px 20px;
+  border-radius: 30px;
+  width: 440px;
+  border: none;
+  background-color: #f8f6f6;
+  box-sizing: border-box;
+}
+.search-bar:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 0.1s;
+  border: 1px solid rgb(239, 213, 217);
+  border-width: 2px;
+}
+.search-button {
+  background-color: rgb(247, 141, 159);
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  margin-top: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+.search-button:hover, .headings:hover,.category:hover,.podcast-category:hover,
+.inspiration:hover,.img:hover,.process:hover,.meetups:hover,.updates:hover,.hang-time:hover,
+.community:hover,.grids:hover,.title1:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.right-section {
+  width: 700px;
+}
+.headings {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 40px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.sign-up-button {
+  margin:0;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  flex-direction: row;
+  padding: 14px;
+  cursor: pointer;
+}
+.log-in-button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.sign-up-button:hover {
+  opacity: 0.6;
+}
+.log-in-button:hover{
+  background-color: rgb(59, 53, 53);
+  color: white;
+}
+.log-in-button:active{
+  opacity: 0.7;
+}
+h1 {
+  margin-top: 200px;
+  margin-left: 40px;
+  font-family: Helvetica, sans-serif,Arial,sans-serif;
+  font-size: 48px;
+  display: block;
+  background-color: transparent;
+}
+.date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(139, 133, 133);
+  margin-top: 60px;
+  padding-left: 40px;
+  margin-bottom : 0;
+}
+.work {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  padding-left: 40px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.overtime {
+  position: absolute;
+  top: 4%;
+  left: 65%;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+.podcast {
+  position: absolute;
+  top: 0%;
+  left: 62%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(186, 175, 175);
+  margin-top: 60px;
+  padding-left: 40px;
+  margin-bottom : 0;
+}
+.power {
+  position: absolute;
+  top: 15%;
+  left: 65%;
+  text-decoration: none;
+  color: black;
+}
+.line {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 0;
+  top: 22%;
+  left: 65%;
+  width: 250px;
+  padding-left: 14px;
+}
+.categories {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  position: absolute;
+  top: 100%;
+  left: 65%;
+}
+.category,.podcast-category,.inspiration,.process,.meetups,.updates,.hang-time,.community {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 60px;
+  padding-left: 40px;
+  margin-bottom : 0;
+  top: 99%;
+  left: 62%;
+}
+.podcast-category {
+  top: 103%;
+}
+.inspiration {
+  top: 107%;
+}
+.process {
+  top: 111%;
+}
+.meetups {
+  top: 115%;
+}
+.updates {
+  top: 119%;
+}
+.hang-time {
+  top: 123%;
+}
+.community {
+  top: 127%;
+}
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 800px;
+  margin-left: 40px;
+  color: #2d2d2d;
+}
+.horizontal-line {
+  margin-left: 40px;
+  content: '';
+  display: block;
+  height: 0;
+  width: 850px;
+  background-color: rgba(255, 255, 255, 0.843);
+}
+.grids {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 3px;
+  display: block;
+}
+.dates {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(139, 133, 133);
+  margin-top: 60px;
+  padding-left: 40px;
+  margin-bottom : 0;
+  display: block;
+  position: absolute;
+  left: 17%;
+  margin-top: 18px;
+}
+.title1 {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  left: 20%;
+  margin: 0;
+  margin-top: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 0;
+}
+.details {
+  position: absolute;
+  margin-top: 70px;
+  left: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 610px;
+  color: #808080;
+  display: inline-block;
+}
+.horizontal-line1 {
+  content: '';
+  height: 0;
+  width: 850px;
+  background-color: rgba(255, 255, 255, 0.843);
+  margin-top: 50px;
+  margin-left: 40px;
+}
